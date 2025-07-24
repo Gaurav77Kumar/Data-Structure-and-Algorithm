@@ -1,20 +1,19 @@
 public class Palindrome {
     public static void main(String[] args) {
-        String str = "madam";
-        boolean isPalindrome = true;
+         String str = "madam";
+        System.out.println(ispalindrome(str));
+    }
 
-        int n = str.length();
-        for (int i = 0; i < n / 2; i++) {
-            if (str.charAt(i) != str.charAt(n - i - 1)) {
-                isPalindrome = false;
-                break;
+    static boolean ispalindrome(String str){
+        str  = str.toLowerCase();
+        for(int i = 0; i<=str.length()/2; i++){
+            char start  = str.charAt(i);
+            char end  = str.charAt(str.length() - 1 -i);
+
+            if(start!=end){
+                return false;
             }
         }
-
-        if (isPalindrome) {
-            System.out.println(str + " is a palindrome.");
-        } else {
-            System.out.println(str + " is not a palindrome.");
-        }
+        return true;
     }
 }
