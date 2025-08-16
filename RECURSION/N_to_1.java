@@ -2,7 +2,8 @@ package RECURSION;
 
 public class N_to_1 {
     public static void main(String[] args) {
-        funrev(5);
+
+        funrev(64);
     }
     static void fun(int n){
         if(n==0){
@@ -16,7 +17,7 @@ public class N_to_1 {
             return;
         }
         funrev(n-1);
-        System.out.println(n);
+        System.out.print(n+ " ");
 
     }
 

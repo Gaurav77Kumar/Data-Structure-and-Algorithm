@@ -11,7 +11,7 @@ public class Reverse_number {
             rev1(n/10);
     }
     static int rev2(int n){
-            // Sometimes you might need additional variablesin the argument
+            // Sometimes you might need additional variables in the argument
            // in thet case make another function
 
         int digit  = (int)(Math.log10(n)) + 1;
