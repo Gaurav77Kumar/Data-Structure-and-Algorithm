@@ -1,6 +1,6 @@
 package RECURSION;
 
-public class basic {
+public class Basic {
     public static void main(String[] args) {
         print(1);
     }
