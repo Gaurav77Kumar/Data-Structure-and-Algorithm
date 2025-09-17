@@ -2,7 +2,7 @@ package BACKTRACKING_MAZE_PROBLEMS;
 
 public class Counting_Paths {
     public static void main(String[] args) {
-        System.out.println(Count(10,10));
+        System.out.println(Count(3,3));
 
     }
     static int Count(int r, int c){
