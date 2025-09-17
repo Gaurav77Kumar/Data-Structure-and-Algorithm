@@ -1,7 +1,5 @@
 package RECURSION;
 
-import java.sql.SQLOutput;
-
 public class Skip_character {
     public static void main(String[] args) {
         skip("", "baccab");
