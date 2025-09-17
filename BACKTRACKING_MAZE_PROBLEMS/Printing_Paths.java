@@ -4,27 +4,19 @@ import java.util.ArrayList;
 
 public class Printing_Paths {
     public static void main(String[] args) {
-        System.out.println(path("", 3, 3));
+        Printing_path("", 3, 3);
     }
-    static ArrayList<String> path(String p, int r, int c){
+    static void Printing_path(String p, int r, int c){
         if(r == 1 && c == 1){
-            ArrayList<String> list = new ArrayList<>();
-            list.add(p);
-            return list;
-
+            System.out.println(p);
+            return;
         }
-        ArrayList<String> list = new ArrayList<>();
-
-        if(r > 1 && c > 1) {
-            list.addAll(path(p + 'D', r - 1, c - 1));
-        }
-
         if(r > 1){
-           list.addAll( path(p + 'H', r-1, c));
+            Printing_path(p + 'D', r-1, c);
         }
-        if(c > 1){
-           list.addAll( path(p+'V', r, c-1));
+        if( c > 1){
+            Printing_path(p+'R', r, c - 1);
         }
-        return list;
+
     }
 }
