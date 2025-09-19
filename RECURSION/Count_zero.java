@@ -1,6 +1,6 @@
 package RECURSION;
 
-public class count_zero {
+public class Count_zero {
     public static void main(String[] args) {
         int num = 0;
         System.out.println(countzeros(num));

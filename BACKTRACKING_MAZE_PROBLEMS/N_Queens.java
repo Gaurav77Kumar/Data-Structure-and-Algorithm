@@ -1,7 +1,5 @@
 package BACKTRACKING_MAZE_PROBLEMS;
 
-
-
 public class N_Queens {
     public static void main(String[] args) {
         int n = 4;
@@ -10,14 +8,12 @@ public class N_Queens {
         System.out.println( queens(board, 0));
 
     }
-
     static int queens(boolean[][] board, int row){
         if(row == board.length){
             display(board);
             System.out.println();
             return 1;
         }
-
         int count = 0;
         // placing the queen and checking  for every row and column
         for(int col = 0; col < board.length; col++){
@@ -29,9 +25,7 @@ public class N_Queens {
             }
         }
         return count;
-
     }
-
     private static boolean isSafe(boolean[][] board, int row, int col) {
 
         // Check vertical row
@@ -40,9 +34,7 @@ public class N_Queens {
                 return false;
             }
         }
-
         // digital left
-
         int maxLeft = Math.min(row, col);
         for (int i = 0; i <= maxLeft; i++) {
             if (board[row - i][col - i]) {
@@ -55,12 +47,10 @@ public class N_Queens {
             if (board[row - i][col + i]) {
 
                 return false;
-
             }
         }
         return true;
     }
-
     private static void display(boolean[][] board){
         for(boolean[] row : board){
             for(boolean element : row){
