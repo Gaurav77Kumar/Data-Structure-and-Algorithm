@@ -1,6 +1,6 @@
 package RECURSION;
 
-public class concept_passing {
+public class Concept_passing {
     public static void main(String[] args) {
         fun(5);
 
