@@ -1,7 +1,8 @@
 package BACKTRACKING_MAZE_PROBLEMS;
 
 public class All_Paths {
-    public static void main(String[] args) {
+    public static  void main(String[] args) {
+
 
         boolean[][] board = {
                 {true, true, true},
