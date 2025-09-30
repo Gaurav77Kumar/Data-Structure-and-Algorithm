@@ -5,6 +5,10 @@ class Student {
     String name;
     float marks;
 
+    // we need one word to access every object
+
+
+
     void greeting() {
         System.out.println("Hello how are you " + name);
     }
@@ -15,12 +19,15 @@ class Student {
     }
 
     Student () {
+
         // This is how you call a constructor from another constructor
+
         this(13, "Sanjana", 32.2f);
     }
 
     // Student sanjana = new Student(13, "sanjana", 98.2f)
     // here, this will be replaced with sanajana
+
     Student(int roll, String name, float marks){
         this.roll_no = roll;
         this.name  = name;
@@ -44,7 +51,7 @@ public class Class_Object {
 //        System.out.println(random2.name);
 
 
-//         one is in stack memory and object is created in heap memory and then
+//         One is in stack memory and object is created in heap memory and then
 //         I created two in stack and memory and also two is pointed to the heap memory
 //         so when i change something in the one that is also visible in the two
 
