@@ -1,6 +1,6 @@
-package SORTS;
+package SORTING;
 
-public class problem2 {
+public class Duplicate_Number {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 3, 4, 2, 2};
         int missing = DuplicateNumber(arr);

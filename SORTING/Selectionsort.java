@@ -1,8 +1,8 @@
-package SORTS;
+package SORTING;
 
 import java.util.Arrays;
 
-public class selectionsort {
+public class Selectionsort {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 1, 5, 4, 2};
         selection(arr);

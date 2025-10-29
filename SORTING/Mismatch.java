@@ -1,13 +1,15 @@
-package SORTS;
+package SORTING;
 
-public class problem4 {
+import java.util.Arrays;
+
+public class Mismatch {
     public static void main(String[] args) {
-        int[] arr = new int[]{3, 4, -1, 1};
-        int missingpositive = missingpositive(arr);
-        System.out.println("First missing positive is : " + missingpositive);
+        int[] arr = new int[]{5, 4, 2, 2, 6, 1};
+        int[] mismatch = mismatch(arr);
+        System.out.println("Mismatch Number is : " + Arrays.toString(mismatch));
     }
 
-    public static int missingpositive(int[] arr) {
+    public static int[] mismatch(int[] arr) {
         int i = 0;
 
         while(i < arr.length) {
@@ -21,11 +23,11 @@ public class problem4 {
 
         for(int index = 0; index < arr.length; ++index) {
             if (arr[index] != index + 1) {
-                return index + 1;
+                return new int[]{arr[index], index + 1};
             }
         }
 
-        return arr.length + 1;
+        return new int[]{-1, -1};
     }
 
     static void swap(int[] arr, int first, int second) {
@@ -34,3 +36,4 @@ public class problem4 {
         arr[second] = temp;
     }
 }
+
