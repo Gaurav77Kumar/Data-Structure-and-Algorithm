@@ -9,7 +9,7 @@ public class Missing_Numbers {
     public static void main(String[] args) {
         int[] arr = new int[]{3,2,0};
         missingNumber(arr);
-        System.out.println(Arrays.toString(arr)); // Array.toString() is is used to print the array in a readable format if we directly print the array it will print the hashcode of the array
+        System.out.println(Arrays.toString(arr)); 
         System.out.println("Missing Number is: " + missingNumber(arr));
     }
 
