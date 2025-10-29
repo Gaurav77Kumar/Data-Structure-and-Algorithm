@@ -1,10 +1,8 @@
-
-
-package SORTS;
+package SORTING;
 
 import java.util.Arrays;
 
-public class cyclicsort {
+public class Cyclicsort {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 5, 4, 1, 2};
         sort(arr);
