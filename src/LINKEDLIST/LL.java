@@ -110,7 +110,7 @@ public class LL {
 
         public Node(int value) {
             this.value = value;
-            this.next = next;
+            this.next = next; //h
         }
     }
 }
