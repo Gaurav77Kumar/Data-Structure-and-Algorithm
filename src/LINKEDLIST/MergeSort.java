@@ -1,8 +1,6 @@
 package LINKEDLIST;
 
 public class MergeSort {
-
-
     static class ListNode {
         int val;
         ListNode next;

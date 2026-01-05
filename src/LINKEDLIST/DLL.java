@@ -62,7 +62,7 @@ public class DLL {                          // This is the doubly linked list cl
               node.next.prev = node;
           }
       }
-
+ 
       public void display(){
           Node node = head;
           while(node != null){
