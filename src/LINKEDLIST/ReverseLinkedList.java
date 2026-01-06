@@ -56,12 +56,12 @@ public class ReverseLinkedList {
 
     // REVERSING THE LINKED LIST USING ITERATION
     public void reverseIterative(){
-        Node prev = null;   // this means previous node of current node that is null at the start
-        Node current = head; // current node starting from head
-        Node next = current.next;  // next node of current node
+        Node prev = null;
+        Node current = head;
+        Node next = current.next;
 
-        while(current!=null){  // iterate until current is not null
-            current.next = prev;  //
+        while(current!=null){
+            current.next = prev;
             prev = current;
             current = next;
             if(next != null){
