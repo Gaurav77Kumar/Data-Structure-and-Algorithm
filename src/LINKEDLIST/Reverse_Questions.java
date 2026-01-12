@@ -21,6 +21,7 @@ package LINKEDLIST;
 // 5. Remove Nth Node from end of Linked List
 // 6. Add Two Numbers represented by Linked Lists
 // 7. Remove Duplicates from Sorted List
+// 8. Remove Duplicates from Sorted List 11
 
 // Fast and Slow Pointer Pattern
 // 1. Find Middle Node
