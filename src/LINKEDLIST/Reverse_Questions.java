@@ -29,6 +29,7 @@ package LINKEDLIST;
 // 3. Happy Number
 // 4. Reorder List
 // 5. Rotate List
+// 6. 
 
 
 public class Reverse_Questions {
