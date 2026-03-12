@@ -73,7 +73,6 @@ public class DLL {                          // This is the doubly linked list cl
 
       }
 
-
     private class Node {                                    // This is the Node class representing each element in the doubly linked list
         private int value;
         private Node next;

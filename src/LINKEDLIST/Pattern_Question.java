@@ -1,38 +1,37 @@
 package LINKEDLIST;
 
-// PATTERN FOR LINKED LIST
+/* LINKED LIST PATTERNS QUESTIONS
 
-// Reverse Pattern
-// 1. Reverse Entire List
-// 2. Reverse a part of the List
-// 3. Reverse in K groups
-// 4. Reverse in Alternate K groups
+ Reverse Pattern
+ 1. Reverse Entire List
+ 2. Reverse a part of the List
+ 3. Reverse in K groups
+ 4. Reverse in Alternate K groups
 
-// Cycle Pattern
-// 1. Detect Cycle
-// 2. Find Length of Cycle
-// 3. Find starting node of Cycle
+ Cycle Pattern
+ 1. Detect Cycle
+ 2. Find Length of Cycle
+ 3. Find starting node of Cycle
 
-// Merge Pattern & pointer manipulation & dummy node
-// 1. Merge two sorted Linked Lists
-// 2. Merge K sorted Linked Lists
-// 3. Sort Linked List using Merge Sort
-// 4. Deleting Node when only given that node
-// 5. Remove Nth Node from end of Linked List
-// 6. Add Two Numbers represented by Linked Lists
-// 7. Remove Duplicates from Sorted List
-// 8. Remove Duplicates from Sorted List 11
+ Merge Pattern & pointer manipulation & dummy node
+ 1. Merge two sorted Linked Lists
+ 2. Merge K sorted Linked Lists
+ 3. Sort Linked List using Merge Sort
+ 4. Deleting Node when only given that node
+ 5. Remove Nth Node from end of Linked List
+ 6. Add Two Numbers represented by Linked Lists
+ 7. Remove Duplicates from Sorted List
+ 8. Remove Duplicates from Sorted List 11
 
-// Fast and Slow Pointer Pattern
-// 1. Find Middle Node
-// 2. Check if Linked List is Palindrome
-// 3. Happy Number
-// 4. Reorder List
-// 5. Rotate List
-// 6. 
+ Fast and Slow Pointer Pattern
+ 1. Find Middle Node
+ 2. Check if Linked List is Palindrome
+ 3. Happy Number
+ 4. Reorder List
+ 5. Rotate List
+ */
 
-
-public class Reverse_Questions {
+public class Pattern_Question {
   // Reverse the entire linked list
     public ListNode reverseList(ListNode head) {
         if (head == null) {
@@ -418,19 +417,21 @@ public class Reverse_Questions {
         return reverseList(dummy.next);
 
      }
+    }
+class ListNode {
+    int val;
+    ListNode next;
 
+    public ListNode() {
     }
 
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode() {
-        }
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
+    ListNode(int x) {
+        val = x;
+        next = null;
     }
+}
+
+
+
+
 

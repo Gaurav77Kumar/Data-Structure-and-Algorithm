@@ -1,7 +1,5 @@
 package OOPS.StaticExample;
 
-import com.sun.tools.javac.Main;
-
 public class main {
     public static void main(String[] args) {
 //        Human gaurav = new Human(22,"gaurav", 43344,false);

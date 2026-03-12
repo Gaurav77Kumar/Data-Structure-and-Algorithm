@@ -69,11 +69,6 @@ public class CLL {
         } while (current != head);
     }
 
-
-
-
-
-
     private class Node {
         int value;
         Node next;
